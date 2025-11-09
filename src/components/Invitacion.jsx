@@ -14,7 +14,7 @@ import LugaresPraga from "./LugaresPraga";
 const Invitacion = () => {
   const targetDate = new Date("2026-01-24T21:00:00-03:00");
 
-  const colorPrincipal = "#A27C5A"; // rustic warm brown
+  const colorPrincipal = "#A27C5A"; 
 
   const [showValores, setShowValores] = useState(false);
 
@@ -50,7 +50,7 @@ const Invitacion = () => {
         <img
           src="https://res.cloudinary.com/dfschbyq2/image/upload/v1762705546/WhatsApp_Image_2025-11-06_at_3.54.31_PM_2_waqzqj.jpg"
           alt="Fondo nombres"
-          className="absolute inset-0 w-full h-full object-contain opacity-90"
+          className="absolute inset-0 w-full h-full object-contain opacity-90 md:opacity-50"
         />
 
         {/* Fecha debajo de la foto */}

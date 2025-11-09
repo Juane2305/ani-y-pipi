@@ -134,7 +134,7 @@ const Invitacion = () => {
           </p>
           <button
             onClick={() => setShowValores(true)}
-            className="bg-gray-900 text-white py-3 px-10 rounded-full text-lg shadow-md hover:bg-gray-800 transition duration-300"
+            className="bg-transparent text-black border border-[#735841] py-3 px-10 rounded-full text-lg shadow-md hover:bg-gray-800 transition duration-300"
           >
             Ver valores
           </button>
@@ -198,13 +198,13 @@ const Invitacion = () => {
 
               <div className="flex justify-center gap-3 mt-4">
                 <button
-                  className="bg-gray-800 text-white rounded-full text-sm transition-transform active:scale-95 px-3 py-2"
+                  className="bg-[#735841] text-white rounded-full text-sm transition-transform active:scale-95 px-3 py-2"
                   onClick={() => handleCopy("alias", "Ana.pipi.26")}
                 >
                   {copied.alias ? "✔ Alias copiado" : "Copiar Alias"}
                 </button>
                 <button
-                  className="bg-gray-800 text-white rounded-full text-sm transition-transform active:scale-95 px-3 py-2"
+                  className="bg-[#735841] text-white rounded-full text-sm transition-transform active:scale-95 px-3 py-2"
                   onClick={() => handleCopy("cbu", "4530000800012841310677")}
                 >
                   {copied.cbu ? "✔ CBU copiado" : "Copiar CBU"}
@@ -214,7 +214,7 @@ const Invitacion = () => {
 
             <button
               onClick={() => setShowValores(false)}
-              className="mt-4 bg-gray-800 text-white py-2 px-6 rounded-full hover:bg-gray-700 transition"
+              className="mt-4 bg-[#966e4a] text-white py-2 px-6 rounded-full hover:bg-gray-700 transition"
             >
               Cerrar
             </button>
